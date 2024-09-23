@@ -1,0 +1,25 @@
+        /* Eliminar la flecha de selección del dropdown */
+.dropdown-toggle::after {
+    display: none; /* Oculta la flecha */
+}
+
+        /* Estilo para el botón de perfil sin fondo */
+.btn-profile {
+    background: none; /* Quitar el fondo del botón */
+    border: none; /* Quitar el borde del botón */
+    padding: 0; /* Eliminar el padding para alinear bien la imagen */
+}
+
+        /* Estilo para la imagen de perfil */
+.btn-profile img {
+    border-radius: 50%; /* Hacer que la imagen sea redonda */
+}
+         /* Posicionar el menú desplegable hacia la izquierda */
+.dropdown-menu {
+    right: 0; /* Posicionar el menú a la derecha del botón */
+    left: auto; /* Desactivar el ajuste automático a la izquierda */
+    top: 100%; /* Asegurar que el menú se abra justo debajo del botón */
+    transform: translateX(-100%); /* Mover el menú hacia la izquierda */
+}
+
+
